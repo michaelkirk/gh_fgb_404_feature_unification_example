@@ -200,8 +200,7 @@ dependencies = [
 [[package]]
 name = "flatgeobuf"
 version = "4.5.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f2d78ca20e47a9f45703d3a811f7f24935ce2d3a3f7b947fd433489ddd8daad6"
+source = "git+https://github.com/kylebarron/flatgeobuf?branch=kyle%2Ftls-options#f909a23ad53878620b210bd2cb0d2b749c16be1c"
 dependencies = [
  "byteorder",
  "bytes",
@@ -394,8 +393,7 @@ dependencies = [
 [[package]]
 name = "http-range-client"
 version = "0.8.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "bae68ca93886cdaad288a3172f8157ce99ffb621343832b6254b79b4d7e8a34f"
+source = "git+https://github.com/kylebarron/http-range-client?branch=kyle%2Fdefault-tls-feature#415846579a308c66ac3d1db58b5745be26c86d5a"
 dependencies = [
  "async-trait",
  "byteorder",

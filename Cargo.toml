@@ -6,3 +6,8 @@ edition = "2021"
 [dependencies]
 flatgeobuf = "4.5.0"
 reqwest = "0.12.9"
+
+[patch.crates-io]
+
+http-range-client = { git = "https://github.com/kylebarron/http-range-client", branch = "kyle/default-tls-feature" }
+flatgeobuf = { git = "https://github.com/kylebarron/flatgeobuf", branch = "kyle/tls-options" }
