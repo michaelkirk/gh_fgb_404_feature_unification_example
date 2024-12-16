@@ -1,0 +1,23 @@
+bitflags v1.3.2
+└── flatbuffers v24.3.25
+    └── flatgeobuf v4.5.0
+        └── example v0.1.0 (/Users/mkirk/src/georust/gh_fgb_404_feature_unification_example/example)
+
+bitflags v2.6.0
+├── rustix v0.38.42
+│   └── tempfile v3.14.0
+│       ├── flatgeobuf v4.5.0 (*)
+│       └── native-tls v0.2.12
+│           ├── hyper-tls v0.6.0
+│           │   └── reqwest v0.12.9
+│           │       ├── flatgeobuf v4.5.0 (*)
+│           │       └── http-range-client v0.8.0
+│           │           └── flatgeobuf v4.5.0 (*)
+│           ├── reqwest v0.12.9 (*)
+│           └── tokio-native-tls v0.3.1
+│               ├── hyper-tls v0.6.0 (*)
+│               └── reqwest v0.12.9 (*)
+├── security-framework v2.11.1
+│   └── native-tls v0.2.12 (*)
+└── system-configuration v0.6.1
+    └── reqwest v0.12.9 (*)
